@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#78350F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="675" fill="url(#bgGrad)" />
+
+  <!-- App Header Bar -->
+  <rect x="0" y="0" width="1200" height="70" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+  
+  <!-- Logo Icon -->
+  <rect x="40" y="14" width="42" height="42" rx="12" fill="url(#headerGrad)" />
+  <text x="61" y="42" font-size="22" text-anchor="middle" dominant-baseline="central">🍥</text>
+
+  <!-- Brand Title & Badge -->
+  <text x="96" y="38" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="24" fill="#451A03">Ganbatte Journal</text>
+  
+  <!-- Mode Badge -->
+  <rect x="290" y="24" width="130" height="24" rx="12" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" />
+  <circle cx="304" cy="36" r="4" fill="#EA580C" />
+  <text x="316" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#78350F" letter-spacing="0.5">ICHIRAKU RAMEN</text>
+
+  <!-- Header Right Pills -->
+  <rect x="880" y="20" width="135" height="32" rx="16" fill="#FEF3C7" stroke="#FCD34D" />
+  <circle cx="896" cy="36" r="4" fill="#10B981" />
+  <text x="906" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#78350F">Cloud Firestore</text>
+
+  <rect x="1030" y="20" width="130" height="32" rx="16" fill="#EA580C" />
+  <text x="1095" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Google Sign-In</text>
+
+  <!-- Tab Navigation -->
+  <rect x="40" y="90" width="1120" height="42" rx="10" fill="#FEF3C7" stroke="#FDE68A" />
+  <rect x="44" y="94" width="180" height="34" rx="8" fill="#FFFDF9" stroke="#F59E0B" />
+  <text x="134" y="116" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#EA580C" text-anchor="middle">✍️ New Entry</text>
+  <text x="320" y="116" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#92400E">📜 My Journey</text>
+  <text x="500" y="116" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#92400E">📍 Places Map</text>
+  <text x="700" y="116" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#92400E">📊 Location Moods</text>
+
+  <!-- Left Column: Active Journal Entry Card -->
+  <rect x="40" y="150" width="580" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" filter="url(#cardShadow)" />
+  
+  <text x="70" y="185" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Today's Scroll Reflection</text>
+  <text x="70" y="205" font-family="system-ui, sans-serif" font-size="12" fill="#92400E">Geotagged Sanctuary &bull; Leaf Village Center (Cafe / Eatery)</text>
+
+  <!-- Reflection Box -->
+  <rect x="70" y="225" width="520" height="110" rx="10" fill="#FFFBEB" stroke="#FEF3C7" />
+  <text x="85" y="255" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#78350F">"Wrapped up a grueling training session at the Hokage monument."</text>
+  <text x="85" y="280" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#78350F">"Sitting down at Ichiraku's counter for steaming miso pork broth."</text>
+  <text x="85" y="305" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#78350F">"Feeling peaceful fatigue and immense gratitude for the journey."</text>
+
+  <!-- Gemini Clarifying Question Box -->
+  <rect x="70" y="350" width="520" height="120" rx="10" fill="#FEF3C7" stroke="#FCD34D" />
+  <text x="85" y="375" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#EA580C">GANBATTE JOURNAL GUIDE (GEMINI 3.6 FLASH)</text>
+  <text x="85" y="400" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="14" fill="#451A03">"Thank you for sharing your quiet moment at the counter."</text>
+  <text x="85" y="425" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#92400E">Q: When the steam rises from the bowl, what is the primary emotion that stays with you?</text>
+  <text x="85" y="450" font-family="system-ui, sans-serif" font-size="12" fill="#78350F">&rarr; Answered: "Deep restorative comfort and ready for tomorrow."</text>
+
+  <!-- Action Buttons -->
+  <rect x="70" y="490" width="250" height="38" rx="10" fill="url(#headerGrad)" />
+  <text x="195" y="514" font-family="system-ui, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">✓ Saved to Firestore</text>
+
+  <rect x="335" y="490" width="130" height="38" rx="10" fill="#FEF3C7" stroke="#FCD34D" />
+  <text x="400" y="514" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#92400E" text-anchor="middle">📍 Detect GPS</text>
+
+  <!-- Right Column: Synthesis & Animated Seal Card -->
+  <rect x="640" y="150" width="520" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" filter="url(#cardShadow)" />
+
+  <!-- Card Header -->
+  <text x="670" y="185" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Synthesis & Reflection Seal</text>
+  
+  <!-- Vitality Meter -->
+  <rect x="670" y="205" width="460" height="48" rx="10" fill="#FEF3C7" stroke="#FDE68A" />
+  <text x="685" y="235" font-family="system-ui, sans-serif" font-weight="bold" font-size="13" fill="#92400E">Mood Vitality Score:</text>
+  <rect x="830" y="222" width="220" height="14" rx="7" fill="#E5E7EB" />
+  <rect x="830" y="222" width="190" height="14" rx="7" fill="#EA580C" />
+  <text x="1065" y="235" font-family="system-ui, sans-serif" font-weight="bold" font-size="14" fill="#EA580C">8.8 / 10</text>
+
+  <!-- Animated Seal Visual (Ichiraku Ramen) -->
+  <rect x="670" y="265" width="460" height="175" rx="12" fill="#FFFBEB" stroke="#FCD34D" />
+  
+  <!-- Bowl Graphic -->
+  <ellipse cx="760" cy="355" rx="55" ry="32" fill="#C2410C" />
+  <ellipse cx="760" cy="345" rx="50" ry="24" fill="#FEF3C7" stroke="#EA580C" stroke-width="3" />
+  <!-- Ramen Noodles & Swirl -->
+  <ellipse cx="760" cy="343" rx="40" ry="18" fill="#FDE68A" />
+  <!-- Narutomaki Swirl -->
+  <circle cx="750" cy="340" r="12" fill="#FFFFFF" stroke="#EC4899" stroke-width="2" />
+  <path d="M746,340 C746,336 754,336 754,340 C754,344 748,344 748,341" fill="none" stroke="#EC4899" stroke-width="2" />
+  <text x="780" y="345" font-size="18">🥢</text>
+
+  <!-- Seal Details Text -->
+  <text x="835" y="305" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="18" fill="#451A03">Ichiraku Ramen</text>
+  <text x="835" y="325" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="835" y="350" font-family="system-ui, sans-serif" font-size="12" fill="#78350F">Deep comfort, nourishing warmth &amp; joyful recovery</text>
+  
+  <!-- Tailored Environmental Steps -->
+  <rect x="670" y="452" width="460" height="155" rx="10" fill="#FEF3C7" stroke="#FDE68A" />
+  <text x="685" y="475" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#92400E">3 TAILORED ENVIRONMENTAL STEPS (CAFE / EATERY):</text>
+  
+  <text x="685" y="500" font-family="system-ui, sans-serif" font-size="12" fill="#78350F">1. Inhale the warm steam deeply before taking your first sip to engage sensory grounding.</text>
+  <text x="685" y="525" font-family="system-ui, sans-serif" font-size="12" fill="#78350F">2. Set your phone facedown for 5 minutes and savor the ambient culinary sounds.</text>
+  <text x="685" y="550" font-family="system-ui, sans-serif" font-size="12" fill="#78350F">3. Acknowledge the physical effort your body gave today with a gentle shoulder roll.</text>
+  <text x="685" y="585" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#EA580C">📍 Location Pattern: Your vitality averages +1.8 pts when journaling at local cafes.</text>
+</svg>
