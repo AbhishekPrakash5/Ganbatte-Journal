@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "JournalEntry": {
+      "title": "JournalEntry",
+      "description": "User daily journal entry with geolocation and Gemini emotional analysis",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "text": { "type": "string" },
+        "clarifyingQuestion": { "type": "string" },
+        "emotionResponse": { "type": "string" },
+        "sentiment": { "type": "string" },
+        "moodScore": { "type": "number" },
+        "suggestions": { "type": "array" },
+        "location": { "type": "object" },
+        "locationPatternNote": { "type": "string" },
+        "isCrisisDetected": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "text", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/entries/{entryId}": {
+      "schema": "JournalEntry",
+      "description": "User-isolated daily journal reflections, emotional analysis, and geotags"
+    }
+  }
+}

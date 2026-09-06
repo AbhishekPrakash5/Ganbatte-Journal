@@ -1,0 +1,10 @@
+{
+  "name": "Ganbatte Journal",
+  "description": "An uplifting, personal diary with empathetic Gemini guidance, anime reflection seals, geolocation context, and Firestore mood tracking.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

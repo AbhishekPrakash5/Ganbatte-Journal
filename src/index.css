@@ -1,0 +1,201 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Naruto Sunset Orange & Warm Parchment Theme */
+:root {
+  color-scheme: light;
+  --bg-naruto: #FFFDF9;
+  --bg-parchment: #FFF9EF;
+  --bg-card: #FFFBEB;
+  --bg-card-hover: #FEF3C7;
+  
+  --orange-primary: #EA580C;
+  --orange-bright: #F97316;
+  --orange-hover: #C2410C;
+  --orange-soft: #FFEDD5;
+  --orange-tint: #FFF7ED;
+
+  --yellow-chakra: #F59E0B;
+  --yellow-bright: #FBBF24;
+  --yellow-glow: #FEF08A;
+
+  --leaf-konoha: #15803D;
+  --leaf-soft: #DCFCE7;
+
+  --ink-charcoal: #2A1D13;
+  --ink-wood: #431407;
+  --ink-muted: #78350F;
+  --ink-dim: #9A3412;
+
+  --border-gold: #FDE68A;
+  --border-orange: #FED7AA;
+  --border-subtle: #FEEBC8;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #FFFDF9;
+  background-image: radial-gradient(#FDE68A 0.75px, transparent 0.75px), radial-gradient(#FED7AA 0.75px, #FFFDF9 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  color: #2A1D13;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif-natural {
+  font-family: 'Newsreader', Georgia, Cambria, serif;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+/* ============================================================
+   Anime & Ghibli Sticker Keyframe Animations
+   ============================================================ */
+
+@keyframes anime-steam {
+  0% {
+    transform: translateY(0) scaleX(0.9);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-8px) scaleX(1.1);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(-16px) scaleX(1);
+    opacity: 0;
+  }
+}
+
+@keyframes anime-flame {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 6px rgba(249, 115, 22, 0.4));
+  }
+  25% {
+    transform: scale(1.05, 0.95) rotate(-2deg);
+    filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.6));
+  }
+  75% {
+    transform: scale(0.96, 1.04) rotate(2deg);
+    filter: drop-shadow(0 0 8px rgba(234, 88, 12, 0.5));
+  }
+}
+
+@keyframes anime-spark {
+  0% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tw-spark-x, 10px), -18px) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes anime-breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04, 1.02);
+  }
+}
+
+@keyframes anime-bob {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(1.5deg);
+  }
+}
+
+@keyframes anime-blink {
+  0%, 90%, 100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes anime-sway {
+  0%, 100% {
+    transform: rotate(-4deg) translateY(0);
+  }
+  50% {
+    transform: rotate(4deg) translateY(-4px);
+  }
+}
+
+@keyframes anime-shimmer {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes anime-wing {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
+
+.animate-anime-steam-1 {
+  animation: anime-steam 2.2s infinite ease-out;
+}
+
+.animate-anime-steam-2 {
+  animation: anime-steam 2.2s infinite ease-out 0.7s;
+}
+
+.animate-anime-steam-3 {
+  animation: anime-steam 2.2s infinite ease-out 1.4s;
+}
+
+.animate-anime-flame {
+  animation: anime-flame 1.4s infinite ease-in-out;
+  transform-origin: bottom center;
+}
+
+.animate-anime-breathe {
+  animation: anime-breathe 3.2s infinite ease-in-out;
+  transform-origin: center center;
+}
+
+.animate-anime-bob {
+  animation: anime-bob 2.6s infinite ease-in-out;
+}
+
+.animate-anime-blink {
+  animation: anime-blink 3.5s infinite;
+  transform-origin: center;
+}
+
+.animate-anime-sway {
+  animation: anime-sway 3s infinite ease-in-out;
+  transform-origin: top center;
+}
+
+.animate-anime-shimmer {
+  animation: anime-shimmer 2s infinite ease-in-out;
+}
+
+.animate-anime-wing {
+  animation: anime-wing 0.8s infinite ease-in-out;
+  transform-origin: center left;
+}
