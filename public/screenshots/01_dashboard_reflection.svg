@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="btnG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="675" fill="url(#bgG)" />
+
+  <!-- App Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+  <rect x="40" y="14" width="42" height="42" rx="12" fill="url(#btnG)" />
+  <text x="61" y="42" font-size="22" text-anchor="middle" dominant-baseline="central">🍥</text>
+  <text x="96" y="38" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="24" fill="#451A03">Ganbatte Journal</text>
+
+  <!-- Mode Badge -->
+  <rect x="290" y="24" width="130" height="24" rx="12" fill="#FEF3C7" stroke="#FCD34D" />
+  <circle cx="304" cy="36" r="4" fill="#EA580C" />
+  <text x="316" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#78350F">ICHIRAKU RAMEN</text>
+
+  <rect x="860" y="20" width="140" height="32" rx="16" fill="#FEF3C7" stroke="#FCD34D" />
+  <circle cx="876" cy="36" r="4" fill="#10B981" />
+  <text x="886" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#78350F">Firestore Isolated</text>
+
+  <rect x="1015" y="20" width="145" height="32" rx="16" fill="#EA580C" />
+  <text x="1087" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">abhishekthleo (Google)</text>
+
+  <!-- Title & Subtitle Banner -->
+  <text x="40" y="120" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="28" fill="#451A03">Daily Mindfulness Scroll &amp; Geotagged Presence</text>
+  <text x="40" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#92400E">Capture reflections, answer core emotional clarifying questions, and let Gemini synthesize your environment.</text>
+
+  <!-- Main Scroll Card -->
+  <rect x="42" y="172" width="1116" height="460" rx="16" fill="#E2D9CE" opacity="0.4" />
+  <rect x="40" y="170" width="1120" height="460" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+
+  <!-- Geolocation Bar Inside Scroll -->
+  <rect x="70" y="200" width="1060" height="46" rx="10" fill="#FFFBEB" stroke="#FEF3C7" />
+  <text x="90" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#EA580C">📍 Geotagged Environment:</text>
+  <text x="260" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#78350F">Leaf Village Tea &amp; Ramen Quarter, 35.6895° N, 139.6917° E</text>
+  
+  <rect x="790" y="210" width="115" height="26" rx="6" fill="#FEF3C7" stroke="#FCD34D" />
+  <text x="847" y="227" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#92400E" text-anchor="middle">🍜 Cafe / Eatery</text>
+
+  <rect x="915" y="210" width="105" height="26" rx="6" fill="#EA580C" />
+  <text x="967" y="227" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Detect GPS</text>
+
+  <!-- Reflection Text Field -->
+  <rect x="70" y="260" width="1060" height="130" rx="10" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1.5" />
+  <text x="90" y="295" font-family="'Newsreader', Georgia, serif" font-size="18" fill="#451A03">"Completed an intense sprint at the training field today. My team overcame the obstacle we were stuck on all week."</text>
+  <text x="90" y="325" font-family="'Newsreader', Georgia, serif" font-size="18" fill="#451A03">"Now sitting by the warm broth aroma, feeling grateful for perseverance but also physically worn out."</text>
+  <text x="90" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">Characters: 218 / 10,000 &bull; Private, encrypted client-side payload</text>
+
+  <!-- Stage 1: Clarifying Question Card -->
+  <rect x="70" y="405" width="1060" height="130" rx="10" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1.5" />
+  <circle cx="100" cy="435" r="14" fill="#EA580C" />
+  <text x="100" y="440" font-size="14" text-anchor="middle" fill="#FFFFFF">🍥</text>
+  <text x="125" y="435" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#EA580C">GANBATTE JOURNAL GUIDE &bull; CLARIFYING QUESTION</text>
+  <text x="125" y="460" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="16" fill="#451A03">"You pushed through deep resistance today. When you sit with the physical exhaustion right now, does it feel like wholesome fulfillment, or are you carrying lingering anxiety about tomorrow?"</text>
+  
+  <!-- Response Field Inside Question Card -->
+  <rect x="125" y="475" width="780" height="42" rx="8" fill="#FFFFFF" stroke="#FDE68A" />
+  <text x="140" y="501" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#78350F">"It feels like wholesome, honest fulfillment. Tomorrow can wait."</text>
+
+  <rect x="915" y="475" width="200" height="42" rx="8" fill="url(#btnG)" />
+  <text x="1015" y="501" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">Analyze &amp; Save &rarr;</text>
+
+  <!-- Bottom Privacy Note -->
+  <text x="70" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">🔒 Zero-Trust Isolation: Entries stored under /users/{userId}/entries/{entryId} &bull; Protected by strict Firestore rules</text>
+</svg>

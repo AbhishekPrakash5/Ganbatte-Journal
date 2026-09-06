@@ -1,12 +1,83 @@
 # Ganbatte Journal — Empathetic Diary & Environmental Mood Synthesizer
 
-![Ganbatte Journal Dashboard Preview](./public/ganbatte_preview.svg)
+<p align="center">
+  <img src="public/ganbatte_preview.svg" alt="Ganbatte Journal Dashboard Overview" width="100%" />
+</p>
 
 > **"Ganbatte" (頑張って)** — A warm Japanese expression of encouragement, resilience, and mindful presence. 
 
-**Ganbatte Journal** is a secure, full-stack, user-authenticated diary and mindfulness application designed with a **Naruto sunset orange and warm amber parchment** aesthetic. It integrates **Firebase Authentication (Google Sign-In)**, **Cloud Firestore**, and server-side **Gemini API** intelligence on **Google Cloud Run**.
+**Ganbatte Journal** is a secure, full-stack, user-authenticated diary and mindfulness web application designed with a **Naruto sunset orange and warm amber parchment** aesthetic. It integrates **Firebase Authentication (Google Sign-In)**, **Cloud Firestore**, and server-side **Gemini API** intelligence on **Google Cloud Run**.
 
-The application accompanies users through daily reflections, engages in an empathetic dialogue by asking single focused emotional clarifying questions, maps emotional vitality to physical environments, synthesizes historical location-mood patterns, and seals each reflection with handcrafted animated anime & Ghibli-inspired stickers.
+The application accompanies users through daily reflections, engages in an empathetic dialogue by asking focused emotional clarifying questions, maps emotional vitality to physical environments, synthesizes historical location-mood patterns, and seals each reflection with handcrafted animated anime & Ghibli-inspired stickers.
+
+---
+
+## Visual Walkthrough & Feature Showcase
+
+### 1. Daily Mindfulness Scroll & Geotagged Presence
+<p align="center">
+  <img src="public/screenshots/01_dashboard_reflection.svg" alt="Daily Mindfulness Scroll & Geotagged Presence" width="100%" />
+</p>
+
+- **Warm Amber Aesthetic**: Inspired by the warm tones of Naruto's sunset over the Hokage monument and tranquil tea parchment.
+- **Geotagged Environment Bar**: Detects coordinates using the HTML5 Geolocation API and automatically classifies venue categories (*Cafe / Eatery*, *Park / Outdoors*, *Home Sanctuary*, *Transit / Commute*, *Office / Studio*) via OpenStreetMap reverse geocoding.
+- **Two-Stage Conversational Guide**: Rather than generating a robotic analysis immediately, the **Ganbatte Journal Guide** (powered by Gemini) reflects back your words with genuine validation and asks ONE thoughtful clarifying question about the core emotion you felt.
+- **Active Mode Indicator**: Features the custom **Ichiraku Ramen** mode pill with active status pulsing in the header.
+
+---
+
+### 2. Animated Anime Reflection Seals & Synthesis Engine
+<p align="center">
+  <img src="public/screenshots/02_synthesis_stickers.svg" alt="Animated Anime Reflection Seals & Synthesis Engine" width="100%" />
+</p>
+
+- **8 Handcrafted Anime & Studio Ghibli Seals**:
+  1. 🍜 **Ichiraku Ramen** (Naruto Classic): Steaming broth and narutomaki spiral representing deep comfort, nourishing warmth & joyful recovery.
+  2. 🔥 **Calcifer Hearth Spirit** (Ghibli Hearth): Flickering campfire flames with dancing embers symbolizing bright vitality, creative spark & playful warmth.
+  3. 🍃 **Konoha Whimsical Leaf** (Hidden Leaf): Swaying green leaf with wind swirl lines symbolizing serene grounding & resilient spirit.
+  4. ✨ **Susuwatari Star Sprite** (Ghibli Wonder): Fuzzy black soot sprite holding pastel konpeito star candy symbolizing gentle wonder & tender self-care.
+  5. 🦊 **Kurama Nine-Tails Fox** (Nine-Tails Rest): Sleeping orange nine-tailed fox with curled tails and floating 'Zzz' symbolizing peaceful restorative sleep & deep rest.
+  6. 🌱 **Forest Guardian** (Ghibli Nature): Totoro spirit with leafy umbrella and soft rainfall symbolizing deep shelter & mindful sanctuary.
+  7. 🕊️ **Shikigami Sky Bird** (Ninja Paper Art): Floating origami crane with paper slips symbolizing clarity, releasing burdens & soaring focus.
+  8. 🍡 **Hanami Sweet Dango** (Leaf Village): Three-color dango skewer (pink, white, green) with falling cherry blossom petals symbolizing savoring sweetness & simple gratitude.
+- **Mood Vitality Score (1–10)**: Normalized algorithmic rating measuring emotional energy and recovery.
+- **3 Tailored Environmental Actions**: Concrete mindfulness steps customized to the current physical venue.
+
+---
+
+### 3. Geospatial Places Map & Sanctuary Pins
+<p align="center">
+  <img src="public/screenshots/03_places_map.svg" alt="Geospatial Places Map & Sanctuary Pins" width="100%" />
+</p>
+
+- **Interactive Leaflet Visualization**: Explore your journey across physical space with high-contrast chakra markers.
+- **Vitality Color Spectrum**:
+  - 🟢 **Emerald Green**: High Vitality ($\ge 8.0$)
+  - 🟡 **Warm Amber**: Balanced Reflection ($5.0 - 7.9$)
+  - 🔴 **Coral Rose**: Seeking Grounding / Fatigue ($\le 4.9$)
+- **Interactive Reflection Popups**: Click any pin to open an excerpt popup showing the venue name, vitality score, date, and assigned anime seal.
+- **Sanctuary List Sidebar**: Easily browse and click saved locations to pan and inspect reflections smoothly.
+
+---
+
+### 4. Location-Mood Patterns & Environmental Analytics
+<p align="center">
+  <img src="public/screenshots/04_mood_patterns.svg" alt="Location-Mood Patterns & Environmental Analytics" width="100%" />
+</p>
+
+- **Environment Breakdown Bar Chart**: Directly compares average mood vitality across different spaces (Parks, Cafes, Home, Workspaces, Commute).
+- **Algorithmic Correlation Engine**: Surfaces positive sensory triggers (e.g., *"Your vitality averages +1.8 points higher when pairing writing with warm culinary rituals"*).
+- **Sensory Sanctuary Recommendations**: Actionable suggestions for optimizing ambient light, indoor greenery, and transition buffers between work and rest.
+
+---
+
+## GitHub Assets & Image Rendering Note
+
+> [!TIP]
+> **Why `/public/...` links fail on GitHub**:
+> In GitHub Markdown, paths starting with a leading slash (like `/public/preview.svg`) are treated as site-root absolute URLs (resolving to `github.com/public/...`), which triggers a 404 error.
+> 
+> The correct GitHub repository-relative path is `public/preview.svg` or `./public/preview.svg`. Furthermore, all screenshots in `public/screenshots/` have been formatted using pure, filter-free SVG vectors to ensure 100% compatibility with GitHub's strict **Camo proxy sanitizer**.
 
 ---
 
@@ -185,63 +256,9 @@ In accordance with production resiliency directives, the backend does not rely o
 └─────────────────────────┘
 ```
 
-### Two-Stage Conversational Prompt Architecture:
-- **Stage 1 (`/api/journal/clarify`)**: Evaluates the user's reflection and environmental context. Generates an empathetic acknowledgment and ONE clarifying question focused on the core emotion experienced.
-- **Stage 2 (`/api/journal/analyze`)**: Analyzes the reflection, emotional response, geotagged venue, and past user history. Outputs structured JSON containing:
-  - `sentiment`: High-level emotional label.
-  - `moodScore`: Numeric vitality rating (1 to 10).
-  - `primaryEmotion`: Standardized enum (`joyful`, `calm`, `reflective`, `anxious`, `fatigued`, `overwhelmed`, `grateful`, `restless`).
-  - `emotionalSummary`: Empathetic connection between daily events and feelings.
-  - `suggestions`: 2–3 gentle, actionable environmental steps.
-  - `locationPatternNote`: Correlation note based on past history.
-  - `stickerId`: Automated anime sticker seal match.
-
 ---
 
-## 6. Animated Anime Stickers & Reflection Seals
-
-Every reflection is stamped with a handcrafted animated vector seal celebrating Japanese anime and Studio Ghibli artistry:
-
-| Sticker ID | Seal Name | Japanese Name | Core Meaning & Emotional Alignment | Animation Effect |
-| :--- | :--- | :--- | :--- | :--- |
-| **`ramen`** | **Ichiraku Ramen** | 一楽ラーメン | Deep comfort, nourishing warmth & joyful recovery. | Gently rising broth steam curls & chopstick bounce. |
-| **`calcifer`** | **Calcifer Hearth Spirit** | カルシファーの炎 | Bright vitality, creative spark & playful warmth. | Dancing flame tongues with rising ember sparks. |
-| **`leaf`** | **Konoha Whimsical Leaf** | 木の葉の意志 | Serene grounding, natural stillness & resilient spirit. | Swaying green leaf with swirling wind chakra trails. |
-| **`sootsprite`** | **Susuwatari Star Sprite** | ススワタリと金平糖 | Gentle wonder, quiet hope & tender self-care. | Floating soot puff holding pastel star candy. |
-| **`kitsune`** | **Kurama Nine-Tails Fox** | おやすみ九尾 | Peaceful restorative sleep, safety & deep rest. | Sleeping curled fox with swaying tails & floating 'Zzz'. |
-| **`totoro`** | **Forest Guardian** | 森の守り神 | Deep shelter, mindful presence & soothing sanctuary. | Gentle umbrella tilt with falling raindrop ripples. |
-| **`origami`** | **Shikigami Sky Bird** | 式神の折り鶴 | Clarity, release of burdens & soaring focus. | Gliding paper crane with floating talisman slips. |
-| **`dango`** | **Hanami Sweet Dango** | 花見だんご | Savoring the present, sweetness & simple gratitude. | Three-color dango skewer with drifting sakura petals. |
-
-*Users can also manually switch their reflection seal at any time from the confirmation screen or timeline view.*
-
----
-
-## 7. Geolocation Context & Reverse Geocoding
-
-- **HTML5 Geolocation API**: Captures latitude and longitude with high precision upon user consent.
-- **Reverse Geocoding**: Queries OpenStreetMap Nominatim to resolve coordinates into:
-  - `placeName` (e.g. *Ichiraku Ramen Stand*, *Central Park*, *Blue Bottle Cafe*)
-  - `neighborhood` & `city`
-  - `placeCategory` (*cafe*, *park*, *home*, *transit*, *office*, *general*)
-- **Manual Overrides**: Users can click preset environment pills if GPS is unavailable or if they prefer not to share exact coordinates.
-- **Leaf Village Interactive Map**: Powered by Leaflet with custom chakra orange marker pins colored dynamically by vitality:
-  - **Emerald Green**: Mood Vitality &ge; 8.0
-  - **Warm Amber**: Mood Vitality 5.0 – 7.9
-  - **Coral Rose**: Mood Vitality &le; 4.9
-
----
-
-## 8. Location-Mood Patterns & Correlation Engine
-
-Ganbatte Journal automatically analyzes historical records to identify where you feel most grounded:
-- **Vitality Breakdown by Environment**: Aggregates average mood scores across parks, cafes, home, transit, and workspaces.
-- **Correlation Synthesis**: Identifies positive triggers (e.g. *"Your mood vitality averages +1.8 points higher when journaling near parks or green spaces"*).
-- **Sensory Sanctuaries**: Provides tailored environmental tips (e.g. adjusting lighting, bringing indoor plants, or scheduling outdoor walking breaks).
-
----
-
-## 9. Crisis Safety Protocol & Helplines
+## 6. Crisis Safety Protocol & Helplines
 
 The application implements an acute distress intercept:
 - **Automated Keyword Scanner**: Scans entries and responses for acute crisis indicators (e.g., self-harm, severe despair).
@@ -253,7 +270,7 @@ The application implements an acute distress intercept:
 
 ---
 
-## 10. Google Cloud Secret Manager Setup
+## 7. Google Cloud Secret Manager Setup
 
 Store the Gemini API key securely in Google Cloud Secret Manager and grant read permissions to the Cloud Run runtime service account:
 
@@ -274,7 +291,7 @@ gcloud secrets add-iam-policy-binding GEMINI_API_KEY \
 
 ---
 
-## 11. Google Cloud Run Deployment Flow
+## 8. Google Cloud Run Deployment Flow
 
 Deploy the application directly from source:
 
@@ -308,20 +325,3 @@ npm run build
 # Run production server
 npm start
 ```
-
----
-
-## 12. Verification & Walkthrough Checklist
-
-| Step | Action | Expected Outcome |
-| :--- | :--- | :--- |
-| **1. UI Branding** | Open application in browser. | Header displays **Ganbatte Journal** beside the 🍥 emblem, with the **Ichiraku Ramen** mode pill active. |
-| **2. Authentication** | Click **Sign in with Google**. | Google popup opens; upon sign-in, user avatar and email are displayed, and Firestore sync activates. |
-| **3. Geolocation** | Click **Detect GPS** or select *Cafe / Eatery*. | Pill bar updates with resolved neighborhood name and venue category. |
-| **4. Stage 1 Dialogue** | Enter journal text and click **Analyze & Clarify with Gemini**. | Gemini returns empathetic validation and ONE clarifying question regarding the core emotion. |
-| **5. Stage 2 Synthesis** | Answer clarifying question and click **Complete & Save Reflection**. | Gemini calculates Vitality Score, generates 3 environmental steps, assigns the **Ichiraku Ramen** seal, and persists to Firestore. |
-| **6. Seal Switching** | Click **Change Seal** on confirmation. | Sticker drawer opens allowing switching between all 8 animated seals. |
-| **7. Journey Timeline** | Open **My Journey** tab. | Saved entries display with animated seals, mood badges, and search/filter controls. |
-| **8. Geospatial Map** | Open **Places Map** tab. | Chakra orange pins appear on Leaflet map; clicking pins displays reflection popup. |
-| **9. Mood Patterns** | Open **Location Moods** tab. | Aggregate score breakdown across physical spaces renders with environmental insights. |
-| **10. Crisis Safety** | Click **Crisis Helplines (988)** in header. | Modal displays 988 Lifeline and Crisis Text Line direct dial/SMS links. |

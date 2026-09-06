@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgG4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="barG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG4)" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+  <rect x="40" y="14" width="42" height="42" rx="12" fill="url(#barG)" />
+  <text x="61" y="42" font-size="22" text-anchor="middle" dominant-baseline="central">🍥</text>
+  <text x="96" y="38" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="24" fill="#451A03">Ganbatte Journal</text>
+  
+  <rect x="290" y="24" width="130" height="24" rx="12" fill="#FEF3C7" stroke="#FCD34D" />
+  <circle cx="304" cy="36" r="4" fill="#EA580C" />
+  <text x="316" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#78350F">ICHIRAKU RAMEN</text>
+
+  <!-- Title Banner -->
+  <text x="40" y="115" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="26" fill="#451A03">Location &amp; Mood Patterns Analysis</text>
+  <text x="40" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#92400E">Algorithmic synthesis correlating physical environments with emotional wellbeing and vitality.</text>
+
+  <!-- Left: Environment Comparison Bar Chart -->
+  <rect x="42" y="162" width="566" height="480" rx="16" fill="#E2D9CE" opacity="0.4" />
+  <rect x="40" y="160" width="570" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+
+  <text x="65" y="195" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Mood Vitality by Physical Environment</text>
+  <text x="65" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">Average Vitality Score across your recorded geotags (1 to 10 scale):</text>
+
+  <!-- Bar 1: Parks & Outdoors -->
+  <text x="65" y="260" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">🌲 Parks &amp; Forest Sanctuaries</text>
+  <rect x="65" y="270" width="460" height="24" rx="8" fill="#F3F4F6" />
+  <rect x="65" y="270" width="418" height="24" rx="8" fill="#10B981" />
+  <text x="495" y="287" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#065F46">9.1 / 10</text>
+
+  <!-- Bar 2: Cafes & Eateries -->
+  <text x="65" y="325" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">🍜 Cafes, Teahouses &amp; Ramen Shops</text>
+  <rect x="65" y="335" width="460" height="24" rx="8" fill="#F3F4F6" />
+  <rect x="65" y="335" width="405" height="24" rx="8" fill="#EA580C" />
+  <text x="480" y="352" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#9A3412">8.8 / 10</text>
+
+  <!-- Bar 3: Home Sanctuary -->
+  <text x="65" y="390" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">🏡 Home Sanctuary</text>
+  <rect x="65" y="400" width="460" height="24" rx="8" fill="#F3F4F6" />
+  <rect x="65" y="400" width="363" height="24" rx="8" fill="#F59E0B" />
+  <text x="440" y="417" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#92400E">7.9 / 10</text>
+
+  <!-- Bar 4: Study & Office -->
+  <text x="65" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">📚 Office &amp; Study</text>
+  <rect x="65" y="465" width="460" height="24" rx="8" fill="#F3F4F6" />
+  <rect x="65" y="465" width="312" height="24" rx="8" fill="#D97706" />
+  <text x="390" y="482" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#78350F">6.8 / 10</text>
+
+  <!-- Bar 5: Transit & Commute -->
+  <text x="65" y="520" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">🚆 Transit &amp; Commute</text>
+  <rect x="65" y="530" width="460" height="24" rx="8" fill="#F3F4F6" />
+  <rect x="65" y="530" width="248" height="24" rx="8" fill="#F43F5E" />
+  <text x="330" y="547" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#9F1239">5.4 / 10</text>
+
+  <!-- Summary Line -->
+  <rect x="65" y="575" width="510" height="40" rx="8" fill="#FEF3C7" stroke="#FDE68A" />
+  <text x="80" y="600" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="12" fill="#EA580C">Optimal Vitality Anchor: Outdoor nature spots and cozy eateries increase recovery by +31%.</text>
+
+  <!-- Right: Correlation Insights Cards -->
+  <rect x="642" y="162" width="516" height="480" rx="16" fill="#E2D9CE" opacity="0.4" />
+  <rect x="640" y="160" width="520" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+
+  <text x="665" y="195" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Synthesis Insights &amp; Sanctuary Tips</text>
+
+  <!-- Insight Card 1 -->
+  <rect x="665" y="215" width="470" height="115" rx="12" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1.5" />
+  <text x="685" y="242" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="14" fill="#EA580C">✨ High-Vitality Environmental Correlation</text>
+  <text x="685" y="270" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#451A03">"You exhibit significantly elevated calm and joy when you pair reflective writing with warm culinary rituals (such as enjoying ramen or green tea)."</text>
+  <text x="685" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#78350F">Confidence: 94% &bull; Computed across 14 geotagged entries</text>
+
+  <!-- Insight Card 2 -->
+  <rect x="665" y="345" width="470" height="125" rx="12" fill="#FFFBEB" stroke="#FDE68A" />
+  <text x="685" y="372" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="14" fill="#D97706">🌿 Sensory Sanctuary Recommendations</text>
+  <text x="685" y="398" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">1. Home Lighting: Replace harsh overhead bulbs with warm 2700K amber lamps.</text>
+  <text x="685" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">2. Commute Buffer: Add 5 minutes of mindful breathwork before boarding trains.</text>
+  <text x="685" y="442" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">3. Nature Exposure: Schedule a 15-minute midday park walk every Tuesday &amp; Thursday.</text>
+
+  <!-- Insight Card 3: Privacy & Security Guard -->
+  <rect x="665" y="485" width="470" height="130" rx="12" fill="#F3F4F6" stroke="#E5E7EB" />
+  <text x="685" y="512" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#374151">🔒 Privacy Guard &amp; Zero Cross-User Leakage</text>
+  <text x="685" y="538" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4B5563">Your pattern calculations execute strictly against your own authenticated Firestore path (/users/{userId}/entries). No third-party ad networks or aggregate trackers are ever utilized.</text>
+  <text x="685" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#059669">✓ Owner Verified &bull; Verified Google Session</text>
+</svg>

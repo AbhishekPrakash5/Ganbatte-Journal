@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgG2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="sealBtn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG2)" />
+
+  <!-- App Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+  <rect x="40" y="14" width="42" height="42" rx="12" fill="url(#sealBtn)" />
+  <text x="61" y="42" font-size="22" text-anchor="middle" dominant-baseline="central">🍥</text>
+  <text x="96" y="38" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="24" fill="#451A03">Ganbatte Journal</text>
+  
+  <rect x="290" y="24" width="130" height="24" rx="12" fill="#FEF3C7" stroke="#FCD34D" />
+  <circle cx="304" cy="36" r="4" fill="#EA580C" />
+  <text x="316" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#78350F">ICHIRAKU RAMEN</text>
+
+  <!-- Title Banner -->
+  <text x="40" y="115" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="26" fill="#451A03">Animated Anime Reflection Seals &amp; Synthesis Engine</text>
+  <text x="40" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#92400E">Gemini analyzes your core emotions, awards a dynamic vitality seal, and provides 3 tailored environmental steps.</text>
+
+  <!-- Left: Assigned Reflection Seal Card -->
+  <rect x="42" y="162" width="436" height="480" rx="16" fill="#E2D9CE" opacity="0.4" />
+  <rect x="40" y="160" width="440" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+
+  <text x="65" y="195" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Assigned Reflection Seal</text>
+  
+  <!-- Big Seal Visual Display -->
+  <rect x="65" y="215" width="390" height="175" rx="12" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.5" />
+  
+  <!-- Steaming Ramen Vector Illustration -->
+  <ellipse cx="160" cy="315" rx="55" ry="30" fill="#C2410C" />
+  <ellipse cx="160" cy="305" rx="50" ry="22" fill="#FEF3C7" stroke="#EA580C" stroke-width="3" />
+  <ellipse cx="160" cy="303" rx="40" ry="16" fill="#FDE68A" />
+  <circle cx="150" cy="300" r="10" fill="#FFFFFF" stroke="#EC4899" stroke-width="2" />
+  <path d="M147,300 C147,297 153,297 153,300 C153,303 148,303 148,301" fill="none" stroke="#EC4899" stroke-width="1.5" />
+  <text x="180" y="305" font-size="16">🥢</text>
+  <!-- Rising Steam Curls -->
+  <path d="M145,280 Q150,265 145,250" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,2" />
+  <path d="M160,278 Q165,263 160,248" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="3,2" />
+  <path d="M175,280 Q180,265 175,250" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,2" />
+
+  <!-- Seal Details Text -->
+  <text x="235" y="255" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="18" fill="#451A03">Ichiraku Ramen</text>
+  <text x="235" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="235" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">Deep comfort, nourishing warmth</text>
+  <text x="235" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">&amp; joyful recovery</text>
+
+  <!-- Vitality Meter Bar -->
+  <rect x="65" y="405" width="390" height="50" rx="10" fill="#FEF3C7" stroke="#FDE68A" />
+  <text x="80" y="435" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#92400E">Mood Vitality:</text>
+  <rect x="185" y="423" width="180" height="12" rx="6" fill="#E5E7EB" />
+  <rect x="185" y="423" width="158" height="12" rx="6" fill="#EA580C" />
+  <text x="375" y="435" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#EA580C">8.8 / 10</text>
+
+  <!-- Environmental Actions -->
+  <rect x="65" y="470" width="390" height="150" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <text x="80" y="495" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="11" fill="#EA580C">3 ACTIONS FOR CAFE / EATERY SANCTUARY:</text>
+  <text x="80" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">1. Inhale the warm broth steam deeply before first bite.</text>
+  <text x="80" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">2. Set your phone facedown for 5 minutes of mindful chewing.</text>
+  <text x="80" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">3. Release shoulder tension with a slow, grateful exhale.</text>
+  <text x="80" y="602" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#B45309">📍 History Note: Vitality is highest (+1.8 pts) near local cafes.</text>
+
+  <!-- Right: 8 Anime Seals Showcase Grid -->
+  <rect x="502" y="162" width="656" height="480" rx="16" fill="#E2D9CE" opacity="0.4" />
+  <rect x="500" y="160" width="660" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
+
+  <text x="525" y="195" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Handcrafted Anime &amp; Studio Ghibli Seals Collection</text>
+
+  <!-- Sticker 1: Ichiraku Ramen -->
+  <rect x="525" y="215" width="290" height="90" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" />
+  <circle cx="560" cy="260" r="24" fill="#EA580C" />
+  <text x="560" y="267" font-size="22" text-anchor="middle">🍜</text>
+  <text x="595" y="245" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Ichiraku Ramen</text>
+  <text x="595" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="595" y="283" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Deep comfort &amp; joyful recovery</text>
+
+  <!-- Sticker 2: Calcifer -->
+  <rect x="835" y="215" width="295" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="870" cy="260" r="24" fill="#EF4444" />
+  <text x="870" y="267" font-size="22" text-anchor="middle">🔥</text>
+  <text x="905" y="245" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Calcifer Hearth Spirit</text>
+  <text x="905" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#DC2626">カルシファーの炎 &bull; Ghibli Hearth</text>
+  <text x="905" y="283" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Creative spark &amp; playful vitality</text>
+
+  <!-- Sticker 3: Konoha Leaf -->
+  <rect x="525" y="320" width="290" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="560" cy="365" r="24" fill="#10B981" />
+  <text x="560" y="372" font-size="22" text-anchor="middle">🍃</text>
+  <text x="595" y="350" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Konoha Whimsical Leaf</text>
+  <text x="595" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#059669">木の葉の意志 &bull; Hidden Leaf</text>
+  <text x="595" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Serene grounding &amp; resilience</text>
+
+  <!-- Sticker 4: Susuwatari Soot Sprite -->
+  <rect x="835" y="320" width="295" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="870" cy="365" r="24" fill="#374151" />
+  <text x="870" y="372" font-size="22" text-anchor="middle">✨</text>
+  <text x="905" y="350" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Susuwatari Star Sprite</text>
+  <text x="905" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4B5563">ススワタリ &bull; Ghibli Wonder</text>
+  <text x="905" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Gentle wonder &amp; tender self-care</text>
+
+  <!-- Sticker 5: Kurama Fox -->
+  <rect x="525" y="425" width="290" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="560" cy="470" r="24" fill="#F97316" />
+  <text x="560" y="477" font-size="22" text-anchor="middle">🦊</text>
+  <text x="595" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Kurama Nine-Tails Fox</text>
+  <text x="595" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">おやすみ九尾 &bull; Nine-Tails Rest</text>
+  <text x="595" y="493" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Peaceful sleep, recovery &amp; safety</text>
+
+  <!-- Sticker 6: Forest Guardian -->
+  <rect x="835" y="425" width="295" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="870" cy="470" r="24" fill="#0D9488" />
+  <text x="870" y="477" font-size="22" text-anchor="middle">🌱</text>
+  <text x="905" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Forest Guardian</text>
+  <text x="905" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0F766E">森の守り神 &bull; Ghibli Nature</text>
+  <text x="905" y="493" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Deep shelter &amp; mindful sanctuary</text>
+
+  <!-- Sticker 7: Shikigami Bird -->
+  <rect x="525" y="530" width="290" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="560" cy="575" r="24" fill="#EAB308" />
+  <text x="560" y="582" font-size="22" text-anchor="middle">🕊️</text>
+  <text x="595" y="560" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Shikigami Sky Bird</text>
+  <text x="595" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#CA8A04">式神の折り鶴 &bull; Ninja Paper Art</text>
+  <text x="595" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Clarity, release &amp; soaring focus</text>
+
+  <!-- Sticker 8: Hanami Dango -->
+  <rect x="835" y="530" width="295" height="90" rx="10" fill="#FFFBEB" stroke="#FDE68A" />
+  <circle cx="870" cy="575" r="24" fill="#F43F5E" />
+  <text x="870" y="582" font-size="22" text-anchor="middle">🍡</text>
+  <text x="905" y="560" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Hanami Sweet Dango</text>
+  <text x="905" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#E11D48">花見だんご &bull; Leaf Village</text>
+  <text x="905" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Sweetness &amp; simple gratitude</text>
+</svg>
