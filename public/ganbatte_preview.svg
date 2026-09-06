@@ -51,7 +51,7 @@
   <rect x="40" y="150" width="580" height="480" rx="16" fill="#FFFDF9" stroke="#FDE68A" stroke-width="1.5" />
   
   <text x="70" y="185" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="20" fill="#451A03">Today's Scroll Reflection</text>
-  <text x="70" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#92400E">Geotagged Sanctuary &bull; Leaf Village Center (Cafe / Eatery)</text>
+  <text x="70" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#92400E">Geotagged Sanctuary • Leaf Village Center (Cafe / Eatery)</text>
 
   <!-- Reflection Box -->
   <rect x="70" y="225" width="520" height="110" rx="10" fill="#FFFBEB" stroke="#FEF3C7" stroke-width="1" />
@@ -64,7 +64,7 @@
   <text x="85" y="375" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="12" fill="#EA580C">GANBATTE JOURNAL GUIDE (GEMINI 3.6 FLASH)</text>
   <text x="85" y="400" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="14" fill="#451A03">"Thank you for sharing your quiet moment at the counter."</text>
   <text x="85" y="425" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="13" fill="#92400E">Q: When the steam rises from the bowl, what is the primary emotion that stays with you?</text>
-  <text x="85" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">&rarr; Answered: "Deep restorative comfort and ready for tomorrow."</text>
+  <text x="85" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">→ Answered: "Deep restorative comfort and ready for tomorrow."</text>
 
   <!-- Action Buttons -->
   <rect x="70" y="490" width="250" height="38" rx="10" fill="url(#headerGrad)" />
@@ -102,7 +102,7 @@
 
   <!-- Seal Details Text -->
   <text x="835" y="305" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="18" fill="#451A03">Ichiraku Ramen</text>
-  <text x="835" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="835" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン • Naruto Classic</text>
   <text x="835" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">Deep comfort, nourishing warmth &amp; joyful recovery</text>
   
   <!-- Tailored Environmental Steps -->

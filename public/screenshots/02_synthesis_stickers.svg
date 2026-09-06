@@ -49,7 +49,7 @@
 
   <!-- Seal Details Text -->
   <text x="235" y="255" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="bold" font-size="18" fill="#451A03">Ichiraku Ramen</text>
-  <text x="235" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="235" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">一楽ラーメン • Naruto Classic</text>
   <text x="235" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">Deep comfort, nourishing warmth</text>
   <text x="235" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350F">&amp; joyful recovery</text>
 
@@ -79,7 +79,7 @@
   <circle cx="560" cy="260" r="24" fill="#EA580C" />
   <text x="560" y="267" font-size="22" text-anchor="middle">🍜</text>
   <text x="595" y="245" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Ichiraku Ramen</text>
-  <text x="595" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">一楽ラーメン &bull; Naruto Classic</text>
+  <text x="595" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">一楽ラーメン • Naruto Classic</text>
   <text x="595" y="283" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Deep comfort &amp; joyful recovery</text>
 
   <!-- Sticker 2: Calcifer -->
@@ -87,7 +87,7 @@
   <circle cx="870" cy="260" r="24" fill="#EF4444" />
   <text x="870" y="267" font-size="22" text-anchor="middle">🔥</text>
   <text x="905" y="245" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Calcifer Hearth Spirit</text>
-  <text x="905" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#DC2626">カルシファーの炎 &bull; Ghibli Hearth</text>
+  <text x="905" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#DC2626">カルシファーの炎 • Ghibli Hearth</text>
   <text x="905" y="283" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Creative spark &amp; playful vitality</text>
 
   <!-- Sticker 3: Konoha Leaf -->
@@ -95,7 +95,7 @@
   <circle cx="560" cy="365" r="24" fill="#10B981" />
   <text x="560" y="372" font-size="22" text-anchor="middle">🍃</text>
   <text x="595" y="350" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Konoha Whimsical Leaf</text>
-  <text x="595" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#059669">木の葉の意志 &bull; Hidden Leaf</text>
+  <text x="595" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#059669">木の葉の意志 • Hidden Leaf</text>
   <text x="595" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Serene grounding &amp; resilience</text>
 
   <!-- Sticker 4: Susuwatari Soot Sprite -->
@@ -103,7 +103,7 @@
   <circle cx="870" cy="365" r="24" fill="#374151" />
   <text x="870" y="372" font-size="22" text-anchor="middle">✨</text>
   <text x="905" y="350" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Susuwatari Star Sprite</text>
-  <text x="905" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4B5563">ススワタリ &bull; Ghibli Wonder</text>
+  <text x="905" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4B5563">ススワタリ • Ghibli Wonder</text>
   <text x="905" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Gentle wonder &amp; tender self-care</text>
 
   <!-- Sticker 5: Kurama Fox -->
@@ -111,7 +111,7 @@
   <circle cx="560" cy="470" r="24" fill="#F97316" />
   <text x="560" y="477" font-size="22" text-anchor="middle">🦊</text>
   <text x="595" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Kurama Nine-Tails Fox</text>
-  <text x="595" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">おやすみ九尾 &bull; Nine-Tails Rest</text>
+  <text x="595" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EA580C">おやすみ九尾 • Nine-Tails Rest</text>
   <text x="595" y="493" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Peaceful sleep, recovery &amp; safety</text>
 
   <!-- Sticker 6: Forest Guardian -->
@@ -119,7 +119,7 @@
   <circle cx="870" cy="470" r="24" fill="#0D9488" />
   <text x="870" y="477" font-size="22" text-anchor="middle">🌱</text>
   <text x="905" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Forest Guardian</text>
-  <text x="905" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0F766E">森の守り神 &bull; Ghibli Nature</text>
+  <text x="905" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0F766E">森の守り神 • Ghibli Nature</text>
   <text x="905" y="493" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Deep shelter &amp; mindful sanctuary</text>
 
   <!-- Sticker 7: Shikigami Bird -->
@@ -127,7 +127,7 @@
   <circle cx="560" cy="575" r="24" fill="#EAB308" />
   <text x="560" y="582" font-size="22" text-anchor="middle">🕊️</text>
   <text x="595" y="560" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Shikigami Sky Bird</text>
-  <text x="595" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#CA8A04">式神の折り鶴 &bull; Ninja Paper Art</text>
+  <text x="595" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#CA8A04">式神の折り鶴 • Ninja Paper Art</text>
   <text x="595" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Clarity, release &amp; soaring focus</text>
 
   <!-- Sticker 8: Hanami Dango -->
@@ -135,6 +135,6 @@
   <circle cx="870" cy="575" r="24" fill="#F43F5E" />
   <text x="870" y="582" font-size="22" text-anchor="middle">🍡</text>
   <text x="905" y="560" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#451A03">Hanami Sweet Dango</text>
-  <text x="905" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#E11D48">花見だんご &bull; Leaf Village</text>
+  <text x="905" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#E11D48">花見だんご • Leaf Village</text>
   <text x="905" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78350F">Sweetness &amp; simple gratitude</text>
 </svg>

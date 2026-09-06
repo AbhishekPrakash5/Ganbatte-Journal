@@ -1,7 +1,7 @@
 # Ganbatte Journal — Empathetic Diary & Environmental Mood Synthesizer
 
 <p align="center">
-  <img src="public/ganbatte_preview.svg" alt="Ganbatte Journal Dashboard Overview" width="100%" />
+  <img src="public/ganbatte_preview.png" alt="Ganbatte Journal Dashboard Overview" width="100%" />
 </p>
 
 > **"Ganbatte" (頑張って)** — A warm Japanese expression of encouragement, resilience, and mindful presence. 
@@ -16,7 +16,7 @@ The application accompanies users through daily reflections, engages in an empat
 
 ### 1. Daily Mindfulness Scroll & Geotagged Presence
 <p align="center">
-  <img src="public/screenshots/01_dashboard_reflection.svg" alt="Daily Mindfulness Scroll & Geotagged Presence" width="100%" />
+  <img src="public/screenshots/01_dashboard_reflection.png" alt="Daily Mindfulness Scroll & Geotagged Presence" width="100%" />
 </p>
 
 - **Warm Amber Aesthetic**: Inspired by the warm tones of Naruto's sunset over the Hokage monument and tranquil tea parchment.
@@ -28,7 +28,7 @@ The application accompanies users through daily reflections, engages in an empat
 
 ### 2. Animated Anime Reflection Seals & Synthesis Engine
 <p align="center">
-  <img src="public/screenshots/02_synthesis_stickers.svg" alt="Animated Anime Reflection Seals & Synthesis Engine" width="100%" />
+  <img src="public/screenshots/02_synthesis_stickers.png" alt="Animated Anime Reflection Seals & Synthesis Engine" width="100%" />
 </p>
 
 - **8 Handcrafted Anime & Studio Ghibli Seals**:
@@ -47,7 +47,7 @@ The application accompanies users through daily reflections, engages in an empat
 
 ### 3. Geospatial Places Map & Sanctuary Pins
 <p align="center">
-  <img src="public/screenshots/03_places_map.svg" alt="Geospatial Places Map & Sanctuary Pins" width="100%" />
+  <img src="public/screenshots/03_places_map.png" alt="Geospatial Places Map & Sanctuary Pins" width="100%" />
 </p>
 
 - **Interactive Leaflet Visualization**: Explore your journey across physical space with high-contrast chakra markers.
@@ -62,7 +62,7 @@ The application accompanies users through daily reflections, engages in an empat
 
 ### 4. Location-Mood Patterns & Environmental Analytics
 <p align="center">
-  <img src="public/screenshots/04_mood_patterns.svg" alt="Location-Mood Patterns & Environmental Analytics" width="100%" />
+  <img src="public/screenshots/04_mood_patterns.png" alt="Location-Mood Patterns & Environmental Analytics" width="100%" />
 </p>
 
 - **Environment Breakdown Bar Chart**: Directly compares average mood vitality across different spaces (Parks, Cafes, Home, Workspaces, Commute).
@@ -71,13 +71,13 @@ The application accompanies users through daily reflections, engages in an empat
 
 ---
 
-## GitHub Assets & Image Rendering Note
+## GitHub Assets & Image Rendering
 
-> [!TIP]
-> **Why `/public/...` links fail on GitHub**:
-> In GitHub Markdown, paths starting with a leading slash (like `/public/preview.svg`) are treated as site-root absolute URLs (resolving to `github.com/public/...`), which triggers a 404 error.
+> [!NOTE]
+> **High-Resolution PNG Screenshots**:
+> All dashboard showcases and visual walkthroughs in this repository are rendered as standard, high-resolution **1600x900 PNG** assets located under `public/` and `public/screenshots/`.
 > 
-> The correct GitHub repository-relative path is `public/preview.svg` or `./public/preview.svg`. Furthermore, all screenshots in `public/screenshots/` have been formatted using pure, filter-free SVG vectors to ensure 100% compatibility with GitHub's strict **Camo proxy sanitizer**.
+> By using native PNG images rather than inline SVGs or absolute `/public` web URLs, GitHub's markdown parser and Camo image proxy load all screenshots cleanly with zero `Invalid image source` or parsing errors.
 
 ---
 

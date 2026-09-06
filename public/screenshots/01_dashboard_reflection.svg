@@ -54,13 +54,13 @@
   <rect x="70" y="260" width="1060" height="130" rx="10" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1.5" />
   <text x="90" y="295" font-family="'Newsreader', Georgia, serif" font-size="18" fill="#451A03">"Completed an intense sprint at the training field today. My team overcame the obstacle we were stuck on all week."</text>
   <text x="90" y="325" font-family="'Newsreader', Georgia, serif" font-size="18" fill="#451A03">"Now sitting by the warm broth aroma, feeling grateful for perseverance but also physically worn out."</text>
-  <text x="90" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">Characters: 218 / 10,000 &bull; Private, encrypted client-side payload</text>
+  <text x="90" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">Characters: 218 / 10,000 • Private, encrypted client-side payload</text>
 
   <!-- Stage 1: Clarifying Question Card -->
   <rect x="70" y="405" width="1060" height="130" rx="10" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1.5" />
   <circle cx="100" cy="435" r="14" fill="#EA580C" />
   <text x="100" y="440" font-size="14" text-anchor="middle" fill="#FFFFFF">🍥</text>
-  <text x="125" y="435" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#EA580C">GANBATTE JOURNAL GUIDE &bull; CLARIFYING QUESTION</text>
+  <text x="125" y="435" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#EA580C">GANBATTE JOURNAL GUIDE • CLARIFYING QUESTION</text>
   <text x="125" y="460" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="16" fill="#451A03">"You pushed through deep resistance today. When you sit with the physical exhaustion right now, does it feel like wholesome fulfillment, or are you carrying lingering anxiety about tomorrow?"</text>
   
   <!-- Response Field Inside Question Card -->
@@ -68,8 +68,8 @@
   <text x="140" y="501" font-family="'Newsreader', Georgia, serif" font-size="15" fill="#78350F">"It feels like wholesome, honest fulfillment. Tomorrow can wait."</text>
 
   <rect x="915" y="475" width="200" height="42" rx="8" fill="url(#btnG)" />
-  <text x="1015" y="501" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">Analyze &amp; Save &rarr;</text>
+  <text x="1015" y="501" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">Analyze &amp; Save →</text>
 
   <!-- Bottom Privacy Note -->
-  <text x="70" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">🔒 Zero-Trust Isolation: Entries stored under /users/{userId}/entries/{entryId} &bull; Protected by strict Firestore rules</text>
+  <text x="70" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78350F">🔒 Zero-Trust Isolation: Entries stored under /users/{userId}/entries/{entryId} • Protected by strict Firestore rules</text>
 </svg>
